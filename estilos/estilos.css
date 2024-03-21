@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap')
+}
+
+p {
+  font-size: x-large;
+  color: red;
+}/*# sourceMappingURL=estilos.css.map */
