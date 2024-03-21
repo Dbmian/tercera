@@ -11,4 +11,25 @@ body {
 
 span {
   color: salmon;
+}
+
+.nuevos-ingresos {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.columna {
+  display: flex;
+}
+
+.nuevas {
+  flex: 25%;
+  padding: 5px;
+}
+
+.nuevas img {
+  margin-top: 7px;
 }/*# sourceMappingURL=estilos.css.map */

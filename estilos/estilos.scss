@@ -6,10 +6,27 @@
 /*Predeterminado*/
 $color-principal: salmon;
 $color-letra: black;
+$color-secundario: gray;
 
 body{
-    background-color: $color-principal;
+    background-color: $color-principal
 }
 span{
     color: $color-principal
+}
+.nuevos-ingresos{
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+.columna{
+    display: flex;
+}
+.nuevas{
+    flex: 25%;
+    padding: 5px;
+}
+.nuevas img{
+    margin-top: 7px;
 }
