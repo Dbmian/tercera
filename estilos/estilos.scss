@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap')
 
 *{
     margin: 0;
     padding: 0;
 }
 
-p{
-    font-size: x-large;
-    color: red;
+$color-principal: salmon;
+$color-letra: black;
+
+body{
+    background-color: $color-principal;
+}
+span{
+    color: $color-principal
 }
