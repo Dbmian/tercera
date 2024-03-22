@@ -19,7 +19,7 @@ span {
 
 .nuevos-ingresos {
   text-align: center;
-  background-color: #f8f9fa;
+  background-image: linear-gradient(#f8f9fa 30%, salmon);
 }
 
 img {
@@ -35,6 +35,11 @@ img {
   padding: 8px;
 }
 
+.movimiento:hover {
+  transform: scale(1.05);
+  transition: all 1.2s;
+}
+
 .nuevas img {
   margin-top: 5px;
 }
@@ -46,7 +51,7 @@ img {
 }
 
 footer {
-  background-color: #f8f9fa;
+  background-image: linear-gradient(salmon, #f8f9fa 40%);
   text-align: center;
 }
 

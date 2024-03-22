@@ -15,11 +15,11 @@ span{
     color: $color-principal
 }
 .navbar-nav a:hover{
-    color: $color-principal
+    color: $color-principal;
 }
 .nuevos-ingresos{
     text-align: center;
-    background-color: $color-secundario;
+    background-image: linear-gradient($color-secundario 30% ,$color-principal);
 }
 img{
     width: 100%;
@@ -31,6 +31,10 @@ img{
     flex: 25%;
     padding: 8px;
 }
+.movimiento:hover{
+    transform: scale(1.05);
+    transition: all 1.2s;
+}
 .nuevas img{
     margin-top: 5px;
 }
@@ -40,7 +44,7 @@ img{
     background-color: $color-secundario;
 }
 footer{
-    background-color: $color-secundario;
+    background-image: linear-gradient($color-principal,$color-secundario 40%);
     text-align: center;
 }
 footer a{
