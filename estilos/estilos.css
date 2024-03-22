@@ -37,7 +37,7 @@ img {
 
 .movimiento:hover {
   transform: scale(1.05);
-  transition: all 1.2s;
+  transition: all 1s;
 }
 
 .nuevas img {
@@ -63,4 +63,10 @@ footer a {
 
 footer a:hover {
   color: salmon;
+}
+
+.textocarousel {
+  text-align: center;
+  z-index: 1;
+  margin-bottom: 100px;
 }/*# sourceMappingURL=estilos.css.map */
