@@ -15,6 +15,7 @@ span {
 
 .nuevos-ingresos {
   text-align: center;
+  background-color: #f8f9fa;
 }
 
 img {
@@ -32,4 +33,10 @@ img {
 
 .nuevas img {
   margin-top: 7px;
+}
+
+.columna p {
+  text-align: center;
+  font-size: 30px;
+  background-color: #f8f9fa;
 }/*# sourceMappingURL=estilos.css.map */

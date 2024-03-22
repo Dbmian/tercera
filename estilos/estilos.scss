@@ -6,7 +6,7 @@
 /*Predeterminado*/
 $color-principal: salmon;
 $color-letra: black;
-$color-secundario: gray;
+$color-secundario: #f8f9fa;
 
 body{
     background-color: $color-principal
@@ -16,6 +16,7 @@ span{
 }
 .nuevos-ingresos{
     text-align: center;
+    background-color: $color-secundario;
 }
 img{
     width: 100%;
@@ -29,4 +30,9 @@ img{
 }
 .nuevas img{
     margin-top: 7px;
+}
+.columna p{
+    text-align: center;
+    font-size: 30px;
+    background-color: $color-secundario;
 }
