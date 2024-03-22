@@ -14,6 +14,9 @@ body{
 span{
     color: $color-principal
 }
+.navbar-nav a:hover{
+    color: $color-principal
+}
 .nuevos-ingresos{
     text-align: center;
     background-color: $color-secundario;
@@ -26,13 +29,25 @@ img{
 }
 .nuevas{
     flex: 25%;
-    padding: 5px;
+    padding: 8px;
 }
 .nuevas img{
-    margin-top: 7px;
+    margin-top: 5px;
 }
 .columna p{
     text-align: center;
     font-size: 30px;
     background-color: $color-secundario;
+}
+footer{
+    background-color: $color-secundario;
+    text-align: center;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px
+}
+footer a:hover{
+    color: $color-principal
 }
