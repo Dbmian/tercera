@@ -55,8 +55,10 @@ footer a{
 footer a:hover{
     color: $color-principal
 }
-.textocarousel{
-    text-align: center;
-    z-index: 1;
-    margin-bottom: 100px;
+.carousel-inner{
+    height: 600px;
+    width: 100vh;
+}
+.Jumbotron{
+    background-image: linear-gradient($color-secundario,$color-principal 60%);
 }
