@@ -72,4 +72,16 @@ footer a:hover {
 
 .Jumbotron {
   background-image: linear-gradient(#f8f9fa, salmon 60%);
+  text-align: center;
+  font-size: large;
+}
+
+.europa {
+  flex: 25%;
+  padding: 8px;
+}
+
+.europa img {
+  max-height: 100px;
+  max-width: 100px;
 }/*# sourceMappingURL=estilos.css.map */

@@ -61,4 +61,14 @@ footer a:hover{
 }
 .Jumbotron{
     background-image: linear-gradient($color-secundario,$color-principal 60%);
+    text-align: center;
+    font-size: large;
+}
+.europa{
+    flex: 25%;
+    padding: 8px;
+}
+.europa img{
+    max-height: 100px;
+    max-width: 100px;
 }
