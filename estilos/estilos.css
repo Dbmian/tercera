@@ -98,7 +98,7 @@ footer a:hover {
 }
 
 .contacto a:hover {
-  color: salmon;
+  color: #f8f9fa;
 }
 
 .personalizada {
@@ -110,4 +110,21 @@ footer a:hover {
 .fondonosotros {
   z-index: 0;
   display: flex;
+}
+
+.retro {
+  text-align: center;
+  font-size: 25px;
+  background-image: url(../img/retro.jpg);
+  display: flexbox;
+  height: 800px;
+}
+
+.retro a:hover {
+  color: #f8f9fa;
+}
+
+.retro a {
+  text-decoration: none;
+  color: black;
 }/*# sourceMappingURL=estilos.css.map */
