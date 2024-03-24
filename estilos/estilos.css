@@ -66,8 +66,7 @@ footer a:hover {
 }
 
 .carousel-inner {
-  height: 600px;
-  width: 100vh;
+  display: flex;
 }
 
 .Jumbotron {
@@ -84,4 +83,31 @@ footer a:hover {
 .europa img {
   max-height: 100px;
   max-width: 100px;
+}
+
+.contacto {
+  text-align: center;
+  background-color: #f8f9fa;
+  font-size: 25px;
+}
+
+.contacto a {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.contacto a:hover {
+  color: salmon;
+}
+
+.personalizada {
+  text-align: center;
+  font-size: 25px;
+  z-index: 1;
+}
+
+.fondonosotros {
+  z-index: 0;
+  display: flex;
 }/*# sourceMappingURL=estilos.css.map */
