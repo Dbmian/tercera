@@ -8,6 +8,7 @@
 $color-principal: salmon;
 $color-letra: black;
 $color-secundario: #f8f9fa;
+$color-letra-secundario: grey;
 
 body {
     background-color: $color-principal
@@ -117,13 +118,16 @@ footer a:hover {
     text-align: center;
     font-size: 25px;
     background-image:url(../img/retro.jpg);
-    display: flexbox;
-    height: 800px;
+    display: flex;
+    height: 90vh;
+    color: $color-letra-secundario;
+    
+    align-items: center;
 }
 .retro a:hover{
     color: $color-secundario;
 }
 .retro a{
     text-decoration: none;
-    color: $color-letra;
+    color: $color-letra-secundario;
 }

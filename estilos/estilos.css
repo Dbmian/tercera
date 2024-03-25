@@ -116,8 +116,10 @@ footer a:hover {
   text-align: center;
   font-size: 25px;
   background-image: url(../img/retro.jpg);
-  display: flexbox;
-  height: 800px;
+  display: flex;
+  height: 90vh;
+  color: grey;
+  align-items: center;
 }
 
 .retro a:hover {
@@ -126,5 +128,5 @@ footer a:hover {
 
 .retro a {
   text-decoration: none;
-  color: black;
+  color: grey;
 }/*# sourceMappingURL=estilos.css.map */
