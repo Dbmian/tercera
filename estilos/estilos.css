@@ -5,6 +5,11 @@
 }
 
 /*Predeterminado*/
+.expansion, .movimiento:hover {
+  transform: scale(1.05);
+  transition: all 1s;
+}
+
 body {
   background-color: salmon;
 }
@@ -35,11 +40,6 @@ img {
   padding: 8px;
 }
 
-.movimiento:hover {
-  transform: scale(1.05);
-  transition: all 1s;
-}
-
 .nuevas img {
   margin-top: 5px;
 }
@@ -53,6 +53,7 @@ img {
 footer {
   background-image: linear-gradient(salmon, #f8f9fa 40%);
   text-align: center;
+  position: relative;
 }
 
 footer a {

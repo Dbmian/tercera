@@ -10,6 +10,11 @@ $color-letra: black;
 $color-secundario: #f8f9fa;
 $color-letra-secundario: grey;
 
+.expansion{
+    transform: scale(1.05);
+    transition: all 1s;
+}
+
 body {
     background-color: $color-principal
 }
@@ -41,8 +46,7 @@ img {
 }
 
 .movimiento:hover {
-    transform: scale(1.05);
-    transition: all 1s;
+@extend .expansion;
 }
 
 .nuevas img {
@@ -58,6 +62,7 @@ img {
 footer {
     background-image: linear-gradient($color-principal, $color-secundario 40%);
     text-align: center;
+    position: relative;
 }
 
 footer a {
