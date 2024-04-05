@@ -14,9 +14,23 @@ $color-letra-secundario: grey;
     transform: scale(1.05);
     transition: all 1s;
 }
+@mixin tablet {
+    @media screen and (max-width: 800px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media screen and (max-width: 576px) {
+        @content;
+    }
+}
 
 body {
-    background-color: $color-principal
+    background-color: $color-principal;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 span {
@@ -43,6 +57,13 @@ img {
 .nuevas {
     flex: 25%;
     padding: 8px;
+    display: flexbox;
+    @include tablet{
+        background-color: $color-secundario;
+    }
+    @include mobile{
+        background-color: $color-secundario;
+    }
 }
 
 .movimiento:hover {
@@ -57,12 +78,13 @@ img {
     text-align: center;
     font-size: 30px;
     background-color: $color-secundario;
+    display: flexbox;
 }
 
 footer {
     background-image: linear-gradient($color-principal, $color-secundario 40%);
     text-align: center;
-    position: relative;
+    margin-top: auto;
 }
 
 footer a {

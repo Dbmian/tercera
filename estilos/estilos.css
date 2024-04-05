@@ -12,6 +12,9 @@
 
 body {
   background-color: salmon;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 span {
@@ -38,6 +41,17 @@ img {
 .nuevas {
   flex: 25%;
   padding: 8px;
+  display: flexbox;
+}
+@media screen and (max-width: 800px) {
+  .nuevas {
+    background-color: #f8f9fa;
+  }
+}
+@media screen and (max-width: 576px) {
+  .nuevas {
+    background-color: #f8f9fa;
+  }
 }
 
 .nuevas img {
@@ -48,12 +62,13 @@ img {
   text-align: center;
   font-size: 30px;
   background-color: #f8f9fa;
+  display: flexbox;
 }
 
 footer {
   background-image: linear-gradient(salmon, #f8f9fa 40%);
   text-align: center;
-  position: relative;
+  margin-top: auto;
 }
 
 footer a {
