@@ -144,10 +144,13 @@ footer a:hover {
 .retro{
     text-align: center;
     font-size: 25px;
-    background-image:url(../img/retro.jpg);
-    display: flex;
+    background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)),
+    url(../img/retro.jpg);
     height: 90vh;
     color: $color-letra-secundario;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 .retro a:hover{
