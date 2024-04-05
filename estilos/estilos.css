@@ -43,16 +43,6 @@ img {
   padding: 8px;
   display: flexbox;
 }
-@media screen and (max-width: 800px) {
-  .nuevas {
-    background-color: #f8f9fa;
-  }
-}
-@media screen and (max-width: 576px) {
-  .nuevas {
-    background-color: #f8f9fa;
-  }
-}
 
 .nuevas img {
   margin-top: 5px;
@@ -63,6 +53,16 @@ img {
   font-size: 30px;
   background-color: #f8f9fa;
   display: flexbox;
+}
+@media screen and (max-width: 800px) {
+  .columna p {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 641px) {
+  .columna p {
+    font-size: 15px;
+  }
 }
 
 footer {

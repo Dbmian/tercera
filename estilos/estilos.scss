@@ -21,7 +21,7 @@ $color-letra-secundario: grey;
 }
 
 @mixin mobile {
-    @media screen and (max-width: 576px) {
+    @media screen and (max-width: 641px) {
         @content;
     }
 }
@@ -58,12 +58,6 @@ img {
     flex: 25%;
     padding: 8px;
     display: flexbox;
-    @include tablet{
-        background-color: $color-secundario;
-    }
-    @include mobile{
-        background-color: $color-secundario;
-    }
 }
 
 .movimiento:hover {
@@ -79,6 +73,12 @@ img {
     font-size: 30px;
     background-color: $color-secundario;
     display: flexbox;
+    @include tablet{
+        font-size: 25px;
+    }
+    @include mobile{
+        font-size: 15px;
+    }
 }
 
 footer {
