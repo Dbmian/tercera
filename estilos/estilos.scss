@@ -141,8 +141,8 @@ footer a:hover {
 .fondonosotros{
     z-index: 0;
     display: flex;
-    position: absolute;
-    bottom: 1px;
+    flex-direction: column;
+    align-items: center;
 }
 .retro{
     text-align: center;
